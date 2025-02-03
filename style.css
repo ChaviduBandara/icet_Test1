@@ -1,0 +1,64 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Giga:wght@100..900&display=swap');
+
+body{
+    background-image: url(/images/image01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 56px;
+    font-family: "Lexend Giga", serif;
+}
+p{
+    font-size: 20px;
+}
+h3{
+    font-size: 35px;
+    padding: 10px;
+    background-color: brown;
+    position: relative;
+    top: 40px;
+}  */
+
+.nav{
+    background-color: brown;
+    overflow: hidden;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: right;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+}
+.nav ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+table{
+    border: 1px solid black;
+}
+table tr th{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(178, 178, 238);
+}
+table tr td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    display: inline-block;   
+}
